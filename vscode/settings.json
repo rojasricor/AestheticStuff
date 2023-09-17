@@ -1,15 +1,11 @@
 {
+  // Window settings
   "window.titleBarStyle": "native",
   "window.restoreWindows": "all",
-  "files.hotExit": "onExit",
-  "workbench.startupEditor": "none",
-  "explorer.confirmDelete": false,
-  "tabnine.experimentalAutoImports": true,
-  "extensions.ignoreRecommendations": true,
-  "files.associations": {
-    "*.pl": "prolog"
-  },
-  "security.workspace.trust.enabled": false,
+  "window.zoomLevel": 1,
+  "window.menuBarVisibility": "hidden",
+
+  // Editor settings
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
@@ -18,8 +14,12 @@
   "editor.fontFamily": "Aesthetic Iosevka Original, monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 18,
+
+  // Workbench settings
+  "security.workspace.trust.enabled": false,
+  "workbench.startupEditor": "none",
   "workbench.list.smoothScrolling": true,
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.colorCustomizations": {
@@ -74,13 +74,38 @@
     "terminal.ansiBrightCyan": "#7acfe4",
     "terminal.ansiBrightWhite": "#e5e5e5"
   },
-  "window.zoomLevel": 1,
+
+  // Terminal integrated settings
+  "terminal.integrated.fontFamily": "Hack Nerd Font, monospace",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.cursorWidth": 2,
+
+  // Formatter settings
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.menuBarVisibility": "hidden",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Extra settings
+  "files.hotExit": "onExit",
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.pl": "prolog"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Extensions settings
   "aws.telemetry": false
 }
